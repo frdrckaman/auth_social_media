@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'g_auth.apps.GAuthConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.sites',
