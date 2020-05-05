@@ -1,4 +1,6 @@
 {% load static %}
+{% load socialaccount %}
+{% providers_media_js %}
 <!DOCTYPE html>
 <html lang="en" class="body-full-height">
 <head>
@@ -49,7 +51,7 @@
                             <button class="btn btn-info btn-block btn-facebook"><span class="fa fa-facebook"></span> Facebook</button>
                         </div>
                         <div class="col-md-4">
-                            <button class="btn btn-info btn-block btn-google"><span class="fa fa-google-plus"></span> Google</button>
+                            <a href="{% provider_login_url "google" %}" class="btn btn-info btn-block btn-google"><span class="fa fa-google-plus"></span> Google</a>
                         </div>
                     </div>
                     <div class="login-subtitle">
