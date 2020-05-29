@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['fredrickaman.net', '127.0.0.1', '159.89.86.222']
 
 INSTALLED_APPS = [
     'g_auth.apps.GAuthConfig',
+    'g_dashboard.apps.GDashboardConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.sites',
